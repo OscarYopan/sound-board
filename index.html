@@ -11,20 +11,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <div class="imagem"></div>
   <div class="container">
-    <button class="btn">Aplausos</button>
-    <button class="btn">Vaias</button>
-    <button class="btn">Suspiro</button>
-    <button class="btn">Tada</button>
-    <button class="btn">Vitória</button>
-    <button class="btn">Erro</button>
+    <button class="btn" id="apl">Aplausos</button>
+    <button class="btn" id="vai">Vaias</button>
+    <button class="btn" id="sus">Suspiro</button>
+    <button class="btn" id="tad">Tada</button>
+    <button class="btn" id="vit">Vitória</button>
+    <button class="btn" id="err">Erro</button>
 
-    <audio src="sounds/applause.mp3" id="aplausos"></audio>
-    <audio src="sounds/boo.mp3" id="vaias"></audio>
-    <audio src="sounds/gasp.mp3" id="suspiro"></audio>
-    <audio src="sounds/tada.mp3" id="tada"></audio>
-    <audio src="sounds/victory.mp3" id="vitoria"></audio>
-    <audio src="sounds/wrong.mp3" id="erro"></audio>
+    <audio src="sounds/applause.mp3" id="aplausos" class="song"></audio>
+    <audio src="sounds/boo.mp3" id="vaias" class="song"></audio>
+    <audio src="sounds/gasp.mp3" id="suspiro" class="song"></audio>
+    <audio src="sounds/tada.mp3" id="tada" class="song"></audio>
+    <audio src="sounds/victory.mp3" id="vitoria" class="song"></audio>
+    <audio src="sounds/wrong.mp3" id="erro" class="song"></audio>
   </div>  
 </body>
 <script src="script.js"></script>
